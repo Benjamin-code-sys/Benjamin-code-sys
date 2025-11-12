@@ -9,7 +9,7 @@ opportunity.
 ## Objective
 [Provide Objective - Remove this afterwards]]
 
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+My objective and goal is to continuously enhance my offensive cybersecurity skills, uncover system vulnerabilities, and simulate real-world attack scenarios to help organizations strengthen their security posture. Through this blog, I aim to share practical insights, documented projects, and walkthroughs of penetration tests, providing value to both aspiring cybersecurity professionals and industry peers while showcasing my expertise and ongoing commitment to ethical hacking and security research
 
 ## Skills
 [Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
