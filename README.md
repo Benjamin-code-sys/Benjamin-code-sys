@@ -25,12 +25,29 @@ My objective and goal is to continuously enhance my offensive cybersecurity skil
 ## Tools
 [Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
-### Network
+### Network Scanning
 <div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
+  <a href="https://nmap.org"><img src="https://img.shields.io/badge/-Nmap-4682B4?&style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap" /></a>
+  <a href="https://github.com/robertdavidgraham/masscan"><img src="https://img.shields.io/badge/-Masscan-FF6A00?&style=for-the-badge&logo=masscan&logoColor=white" alt="Masscan" /></a>
+  <a href="https://zmap.io/"><img src="https://img.shields.io/badge/-ZMap-00ADEF?&style=for-the-badge&logo=zmap&logoColor=white" alt="ZMap" /></a>
+  <a href="https://angryip.org/"><img src="https://img.shields.io/badge/-Angry%20IP%20Scanner-1F8ACB?&style=for-the-badge&logo=angryipscanner&logoColor=white" alt="Angry IP Scanner" /></a>
+  <a href="https://github.com/netdiscover/netdiscover"><img src="https://img.shields.io/badge/-Netdiscover-2F8F2F?&style=for-the-badge&logo=linux&logoColor=white" alt="Netdiscover" /></a>
+  <a href="https://github.com/royhills/arp-scan"><img src="https://img.shields.io/badge/-ARP-scan-006400?&style=for-the-badge&logo=network-wired&logoColor=white" alt="ARP-scan" /></a>
+  <a href="https://nmap.org/ncat/"><img src="https://img.shields.io/badge/-Netcat-555555?&style=for-the-badge&logo=gnuplot&logoColor=white" alt="Netcat" /></a>
+  <a href="https://github.com/antirez/hping"><img src="https://img.shields.io/badge/-Hping
+
+
+### Vulnerability Scanning
+<div>
+  <a href="https://www.tenable.com/products/nessus"><img src="https://img.shields.io/badge/-Nessus-B22222?&style=for-the-badge&logo=tenable&logoColor=white" alt="Nessus" /></a>
+  <a href="https://www.greenbone.net/"><img src="https://img.shields.io/badge/-OpenVAS-Green?&style=for-the-badge&logo=greenbone&logoColor=white" alt="OpenVAS / Greenbone" /></a>
+  <a href="https://www.rapid7.com/products/nexpose/"><img src="https://img.shields.io/badge/-Nexpose-FF4500?&style=for-the-badge&logo=rapid7&logoColor=white" alt="Nexpose" /></a>
+  <a href="https://www.qualys.com/"><img src="https://img.shields.io/badge/-Qualys-1E90FF?&style=for-the-badge&logo=qualys&logoColor=white" alt="Qualys" /></a>
+  <a href="https://cirt.net/Nikto2"><img src="https://img.shields.io/badge/-Nikto-8A2BE2?&style=for-the-badge&logo=nikto&logoColor=white" alt="Nikto" /></a>
+  <a href="https://github.com/OpenSCAP/openscap"><img src="https://img.shields.io/badge/-OpenSCAP-2F4F4F?&style=for-the-badge&logo=openscap&logoColor=white" alt="OpenSCAP" /></a>
+  <a href="https://www.openvas.org/"><img src="https://img.shields.io/badge/-VulnScan-556B2F?&style=for-the-badge&logo=security&logoColor=white" alt="Vulnerability Scanning" /></a>
 </div>
+
 
 ### Endpoint
 <div>
