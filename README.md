@@ -11,16 +11,16 @@ opportunity.
 My objective and goal is to continuously enhance my offensive cybersecurity skills, uncover system vulnerabilities, and simulate real-world attack scenarios to help organizations strengthen their security posture. Through this blog, I aim to share practical insights, documented projects, and walkthroughs of penetration tests, providing value to both aspiring cybersecurity professionals and industry peers while showcasing my expertise and ongoing commitment to ethical hacking and security research
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Skill                                                                   | Associated Project                                 |
+|-------------------------------------------------------------------------|----------------------------------------------------|
+| Initial compromise using FUD custom Payloads (Windows)                  | <a href="https://google.com">Detection Lab</a>     |
+| Local non-admin Persistence using Custom methods (Windows)              | <a href="https://google.com">Detection Lab</a>     |
+| Stand-Alone DLLs With FUD Injecting Trojans (Windows)                   |                                                    |
+| Pwning Active Directory using C2 Infrastructure (Sliver & Meterpreter)  |                                                    |
+| Bypassing Linux Defences using FUD custom Payloads (Linux)              |                                                    |
+| Bypassing Network Filters using Custom Certficates                      |                                                    |
+| Compromising Entire Internal Network by Abusing a Web Server (Webapp)   |                                                    |
 
 ## Tools
 [Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
