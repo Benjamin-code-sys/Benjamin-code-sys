@@ -14,7 +14,7 @@ My objective and goal is to continuously enhance my offensive cybersecurity skil
 
 | Skill                                                                   | Associated Project                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
-| Initial compromise using FUD custom Payloads (Windows)                  | <a href="https://google.com">Detection Lab</a>     |
+| Initial compromise using FUD custom Payloads (Windows)                  | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/EarlyBird">EarlyBird Technique</a>     |
 | Local non-admin Persistence using Custom methods (Windows)              | <a href="https://google.com">Detection Lab</a>     |
 | Stand-Alone DLLs With FUD Injecting Trojans (Windows)                   |                                                    |
 | Pwning Active Directory using C2 Infrastructure (Sliver & Meterpreter)  |                                                    |
