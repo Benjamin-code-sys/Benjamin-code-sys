@@ -1,9 +1,10 @@
 # Hello, I'm Benjamin Kipsoi
 <a href="https://www.linkedin.com/in/benjamin-kibet-red-teamer18?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSn83sXorQsK6Dd3QzmH47A%3D%3D"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-[Brief Introduction - Remove this afterwards]
-
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+Hello i am Benjamin Kibet Kipsoi, an aspiring cybersecurity professional with strong self-taught and hands-on skills in networking,
+penetration testing, malware analysis, and reverse engineering. Passionate about applying knowledge in
+real-world environments and eager to gain practical experience through an internship or entry-level
+opportunity.
 
 ## Objective
 [Provide Objective - Remove this afterwards]]
