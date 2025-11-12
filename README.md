@@ -7,7 +7,6 @@ real-world environments and eager to gain practical experience through an intern
 opportunity.
 
 ## Objective
-[Provide Objective - Remove this afterwards]]
 
 My objective and goal is to continuously enhance my offensive cybersecurity skills, uncover system vulnerabilities, and simulate real-world attack scenarios to help organizations strengthen their security posture. Through this blog, I aim to share practical insights, documented projects, and walkthroughs of penetration tests, providing value to both aspiring cybersecurity professionals and industry peers while showcasing my expertise and ongoing commitment to ethical hacking and security research
 
