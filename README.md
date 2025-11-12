@@ -15,7 +15,7 @@ My objective and goal is to continuously enhance my offensive cybersecurity skil
 | Skill                                                                   | Associated Project                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
 | Initial compromise using FUD custom Payloads (Windows)                  | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/EarlyBird">EarlyBird Technique</a>     |
-| Local non-admin Persistence using Custom methods (Windows)              | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/blob/main/UnPrivileged-Persistence/COM-Hijacking/Readme.md">COM Hijacking</a>     |
+| Local non-admin Persistence using Custom methods (Windows)              | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/COM-Hijacking">COM Hijacking</a>     |
 | Stand-Alone DLLs With FUD Injecting Trojans (Windows)                   |                                                    |
 | Pwning Active Directory using C2 Infrastructure (Sliver & Meterpreter)  |                                                    |
 | Bypassing Linux Defences using FUD custom Payloads (Linux)              |                                                    |
