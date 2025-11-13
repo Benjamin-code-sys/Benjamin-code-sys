@@ -20,7 +20,7 @@ My objective and goal is to continuously enhance my offensive cybersecurity skil
 | Pwning Active Directory using C2 Infrastructure (Sliver & Meterpreter)  |                                                    |
 | Bypassing Linux Defences using FUD custom Payloads (Linux)              |                                                    |
 | Bypassing Network Filters using Custom Certficates                      |                                                    |
-| Compromising Entire Internal Network by Abusing a Web Server (Webapp)   |                                                    |
+| Compromising Entire Internal Network by Abusing a Web Server (full report)   |                                                    |
 
 ## Tools
 Throughout my red teaming and offensive security journey, I’ve worked extensively with a wide range of tools and frameworks that support every stage of an engagement — from reconnaissance and vulnerability assessment to exploitation, post-exploitation, and command & control operations. Below is a categorized overview of some of the core tools I rely on to simulate real-world attack scenarios and assess organizational security postures effectively.
