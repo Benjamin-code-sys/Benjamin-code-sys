@@ -83,8 +83,8 @@ My work below centers on offensive security engineering—crafting realistic red
 These projects reflect relentless commitment, late-night experimentation, and a passion for mastering the offensive side to strengthen the defensive one.
 Explore my highlighted project to see the precision, structure, and drive behind my builds.
 
-| **Project**                                                             | **Project Repo**                                 |
-|-------------------------------------------------------------------------|----------------------------------------------------|
+| **Project**                                                                      | **Project Repo**                                 |
+|----------------------------------------------------------------------------------|----------------------------------------------------|
 | 1.&nbsp; Fully Undetectable in-Memmory Password sniffer trojan (veracrypt)       |                                           |
-| 2.&nbsp; Local non-admin Persistence using Custom methods (Windows)              |                                           |
-| 3.&nbsp; Stand-Alone DLLs With FUD Injecting Trojans (Windows)                   |                                           |
+|                                                                                  |                                           |
+|                                                                                  |                                           |
