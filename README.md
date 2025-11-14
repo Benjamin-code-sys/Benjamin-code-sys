@@ -12,6 +12,10 @@ My objective and goal is to continuously enhance my offensive cybersecurity skil
 
 ## Skills
 
+The items listed here represent just a fraction of my custom-coded offensive security portfolio, spanning more than 50 advanced builds.
+They demonstrate hands-on expertise across the entire attack chain—from initial access to impact and beyond.
+I hope this curated sample helps you understand the dedication and craft behind my projects.
+
 | Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
 | 1.&nbsp; Initial compromise using FUD custom Payloads (Windows)                  | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/EarlyBird">EarlyBird Technique</a>     |
@@ -79,7 +83,7 @@ My work below centers on offensive security engineering—crafting realistic red
 These projects reflect relentless commitment, late-night experimentation, and a passion for mastering the offensive side to strengthen the defensive one.
 Explore my highlighted project to see the precision, structure, and drive behind my builds.
 
-| **Project**                                                             | **Projects Repo**                                 |
+| **Project**                                                             | **Project Repo**                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
 | 1.&nbsp; Fully Undetectable in-Memmory Password sniffer trojan (veracrypt)       |                                           |
 | 2.&nbsp; Local non-admin Persistence using Custom methods (Windows)              |                                           |
