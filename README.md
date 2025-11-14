@@ -75,5 +75,12 @@ Throughout my red teaming and offensive security journey, I’ve worked extensiv
 
 
 ## Projects
-- Detection Lab
-- SOC Automation Project
+My work below centers on offensive security engineering—crafting realistic red-team simulations, automation tools, and adversary-emulation frameworks.
+These projects reflect relentless commitment, late-night experimentation, and a passion for mastering the offensive side to strengthen the defensive one.
+Explore my highlighted project to see the precision, structure, and drive behind my builds.
+
+| **Project**                                                             | **Projects Repo**                                 |
+|-------------------------------------------------------------------------|----------------------------------------------------|
+| 1.&nbsp; Fully Undetectable in-Memmory Password sniffer trojan (veracrypt)       |                                           |
+| 2.&nbsp; Local non-admin Persistence using Custom methods (Windows)              |                                           |
+| 3.&nbsp; Stand-Alone DLLs With FUD Injecting Trojans (Windows)                   |                                           |
