@@ -36,9 +36,14 @@ Manual enumeration is the recommended way for thorough and accurate information 
 |-------------------------------------------------------------------------|----------------------------------------------------|
 | 1.&nbsp; Local Enumeration using undetectable automated tool (Windows)              | <a href="https://github.com/Benjamin-code-sys/Enumeration/tree/main/WinPEAS">Obfuscated WinPEAS</a>     |
 
+### 3. Post-Compromise Persistence
+To prevent loosing access to our compromised system, us red teamers should ensure we put in place persistence mechanisms that ensure maintained access on the target enviroment even across reboots.  
+Below i've illustrated five of the many advanced persistence mechanisms that prove quite useful for this, since the mimic normal windows functionality. And are opsec safe since they do not tamper with windows operations
+
 | Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
-| 1.&nbsp; Local non-admin Persistence using Custom methods (Windows)              | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/COM-Hijacking">COM Hijacking</a>     |
+| 1.&nbsp; Local Persistence using Componet Object Model method (non-admin)              | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/COM-Hijacking">COM Hijacking</a>     |
+| 2.&nbsp: Local persistence through modified reistry keys (non-admin)    | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/Registry-Keys">COM Hijacking</a> |
                                             
 
 ## Tools
