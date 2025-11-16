@@ -37,14 +37,15 @@ Manual enumeration is the recommended way for thorough and accurate information 
 | 1.&nbsp; Local Enumeration using undetectable automated tool (Windows)              | <a href="https://github.com/Benjamin-code-sys/Enumeration/tree/main/WinPEAS">Obfuscated WinPEAS</a>     |
 
 ### 3. Post-Compromise Persistence
-To prevent loosing access to our compromised system, us red teamers should ensure we put in place persistence mechanisms that ensure maintained access on the target enviroment even across reboots.  
+To prevent losing access to our compromised system, us red teamers should ensure we put in place persistence mechanisms that ensure maintained access on the target enviroment even across reboots.  
 Below i've illustrated five of the many advanced persistence mechanisms that prove quite useful for this, since the mimic normal windows functionality. And are opsec safe since they do not tamper with windows operations
 
 | Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
 | 1.&nbsp; Local Persistence using Componet Object Model method (non-admin)              | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/COM-Hijacking">COM Hijacking</a>     |
-| 2.&nbsp; Local persistence through modified registry keys (non-admin)    | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/Registry-Keys">Registry Keys</a> |
-                                            
+| 2.&nbsp; Local Persistence through modified registry keys (non-admin)    | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/Registry-Keys">Registry Keys</a> |
+| 3.&nbsp; Local Persistence through modified windows services (admin)     | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/Privileged/Modified-Services">Modified Services</a> |
+                                          
 
 ## Tools
 Throughout my red teaming and offensive security journey, I’ve worked extensively with a wide range of tools and frameworks that support every stage of an engagement — from reconnaissance and vulnerability assessment to exploitation, post-exploitation, and command & control operations. Below is a categorized overview of some of the core tools I rely on to simulate real-world attack scenarios and assess organizational security postures effectively.
