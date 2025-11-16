@@ -43,7 +43,7 @@ Below i've illustrated five of the many advanced persistence mechanisms that pro
 | Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
 | 1.&nbsp; Local Persistence using Componet Object Model method (non-admin)              | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/COM-Hijacking">COM Hijacking</a>     |
-| 2.&nbsp: Local persistence through modified reistry keys (non-admin)    | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/Registry-Keys">Registry Keys</a> |
+| 2.&nbsp; Local persistence through modified reistry keys (non-admin)    | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/Registry-Keys">Registry Keys</a> |
                                             
 
 ## Tools
