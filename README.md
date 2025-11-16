@@ -16,15 +16,30 @@ The items listed here represent just a fraction of my custom-coded offensive sec
 They demonstrate hands-on expertise across the entire attack chain—from initial access to impact and beyond.
 I hope this curated sample helps you understand the dedication and craft behind my projects.
 
+### 1. Initial Compromise (Delivery)
+The following projects listed below showcase just five of the many advanced ways attackers can deliver malicious payloads onto a targets system that are fully undetectable by the current AV engines as of today  
+Investigate my custom ways and codes i've provided by following the link to my github repos highlighted below
+
 | Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
-| 1.&nbsp; Initial compromise using FUD custom Payloads (Windows)                  | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/EarlyBird">EarlyBird Technique</a>     |
-| 2.&nbsp; Local non-admin Persistence using Custom methods (Windows)              | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/COM-Hijacking">COM Hijacking</a>     |
+| 1.&nbsp; Delivery using FUD obfuscated meterpreter payload with Early Bird technique (Windows)                  | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/EarlyBird">EarlyBird Technique</a>     |
+| 2.&nbsp; Initial compromise using Asynchronous Procudure Call Injection (Windows)              | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/APC-Injection">APC-Injection</a>     |
 | 3.&nbsp; Stand-Alone DLLs With FUD Injecting Trojans (Windows)                   | <a href="https://github.com/Benjamin-code-sys/DLL-Injection">Obfuscated DLL Injection</a>                                                   |
-| 4.&nbsp; Pwning Active Directory using C2 Infrastructure (Sliver & Meterpreter)  |                                                 |
-| 5.&nbsp; Bypassing Linux Defences using FUD custom Payloads (Linux)              |                                                    |
-| 6.&nbsp; Bypassing Network Filters using Custom Certficates                      |                                                    |
-| 7.&nbsp; Compromising Entire Internal Network by Abusing a Web Server (full report)   | <a href="https://github.com/Benjamin-code-sys/Full-Network-Compromise">Penetration Test Report</a>                                                      |
+| 4.&nbsp; Initial compromise using Map-View Code injection with embeded obfuscated payload  | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/Map-View-Code-Injection">Map-View Code Injection</a>                                                 |
+| 5.&nbsp; Initial compromise by leveraging Heavens-Gate technique             | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/Heaven-Gate%20Technique">Heaven-Gate Technique</a>                                                    |
+
+### 2. Post-Compromise Enumeration (Local)  
+Upon gaining an initial foothold on our targets system it is imperitive that we perfom some enumeration to understand the enviroment better. This we'll help us get organised and find potential attack vectors and privilege escalation paths.  
+Manual enumeration is the recommended way for thorough and accurate information gathering, but since in a red team engagement we are often limited by time constrains we'll have to rely on automated tools. 
+
+| Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
+|-------------------------------------------------------------------------|----------------------------------------------------|
+| 1.&nbsp; Local Enumeration using undetectable automated tool (Windows)              | <a href="">Obfuscated WinPEAS</a>     |
+
+| Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
+|-------------------------------------------------------------------------|----------------------------------------------------|
+| 1.&nbsp; Local non-admin Persistence using Custom methods (Windows)              | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/UnPrivileged-Persistence/COM-Hijacking">COM Hijacking</a>     |
+                                            
 
 ## Tools
 Throughout my red teaming and offensive security journey, I’ve worked extensively with a wide range of tools and frameworks that support every stage of an engagement — from reconnaissance and vulnerability assessment to exploitation, post-exploitation, and command & control operations. Below is a categorized overview of some of the core tools I rely on to simulate real-world attack scenarios and assess organizational security postures effectively.
@@ -78,7 +93,7 @@ Throughout my red teaming and offensive security journey, I’ve worked extensiv
 </div>
 
 
-## Projects
+## Advanced Projects
 My work below centers on offensive security engineering—crafting realistic red-team simulations, automation tools, and adversary-emulation frameworks.
 These projects reflect relentless commitment, late-night experimentation, and a passion for mastering the offensive side to strengthen the defensive one.
 Explore my highlighted project to see the precision, structure, and drive behind my builds.
@@ -86,5 +101,4 @@ Explore my highlighted project to see the precision, structure, and drive behind
 | **Project**                                                                      | **Project Repo**                                 |
 |----------------------------------------------------------------------------------|----------------------------------------------------|
 | 1.&nbsp; Fully Undetectable in-Memmory Password sniffer trojan (veracrypt)       | <a href="https://github.com/Benjamin-code-sys/Password-Sniffer">Password Sniffer</a>                                          |
-|                                                                                  |                                           |
-|                                                                                  |                                           |
+| 2.&nbsp; Compromising Entire Internal Network by Abusing a Web Server (full report)   | <a href="https://github.com/Benjamin-code-sys/Full-Network-Compromise">Penetration Test Report</a>
