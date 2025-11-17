@@ -48,8 +48,21 @@ Below i've illustrated five of the many advanced persistence mechanisms that pro
 | 4.&nbsp; Local Persistence through AppInit-DLL (admin)                   |  <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/Privileged/AppInit-DLL">AppInit-DLL</a>           |
 | 5.&nbsp; Local Persistence through winlogon both shell & userinit (admin) | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/Privileged/Winlogon">Winlogon Persistence</a>
 
+### 4. Local Privilege Escalation
+After obtaining an initial foothold, one of the core objectives in a red team engagement is gaining higher privileges on the compromised system.  
+Local Privilege Escalation (LPE) focuses on identifying weak configurations, insecure permissions, and overlooked system behaviors that allow a low-privileged user to obtain administrative or SYSTEM-level access.  
+Below I’ve highlighted five well-known privilege escalation vectors that commonly arise from misconfigurations.  
+These methods align with legitimate Windows functionality, and the value they bring to an engagement lies in demonstrating how subtle configuration choices can create major security gaps without directly breaking system integrity.
 
-                                         
+
+| Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
+|-------------------------------------------------------------------------|----------------------------------------------------|
+| 1.&nbsp; Local Priv-Escalation via abusing misconfigured services       | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/Unquoted%20Services">Unquoted Services</a>                                    |
+| 2.&nbsp; Local Priv-Escalation via Hijacking DLL's search order         | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/DLL-Hijacking">DLL Hijacking</a>                                    |
+| 3.&nbsp; Local Priv-Escalation via abusing SeImpersonate privilege      | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/SeImpersonate">PrintSpoofer</a>                                    |
+| 4.&nbsp; Local Priv-Escalation via abusing AlwaysInstallElevated        | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/AlwaysInstallElevated">AlaysInstallElevated</a>                                    |
+| 5.&nbsp; Local Priv-Escalation via User Access Control Bypass           | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/UAC-Bypass">UAC-Bypass Fodhelper</a>                                    |
+                                          
 
 ## Tools
 Throughout my red teaming and offensive security journey, I’ve worked extensively with a wide range of tools and frameworks that support every stage of an engagement — from reconnaissance and vulnerability assessment to exploitation, post-exploitation, and command & control operations. Below is a categorized overview of some of the core tools I rely on to simulate real-world attack scenarios and assess organizational security postures effectively.
