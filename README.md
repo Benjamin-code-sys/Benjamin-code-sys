@@ -71,8 +71,8 @@ For red-teamers, understanding these attack paths helps simulate real-world adve
 
 | Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
-| 1.&nbsp; Harvesting Credentials using mimikatz (local)                  | <a href="">Mimikatz</a>   
-| 2.&nbsp; Harvesting Credentials through task manager (local)            | <a href="">Memmory Dump</a>
+| 1.&nbsp; Harvesting Credentials using mimikatz (local)                  | <a href="https://github.com/Benjamin-code-sys/Credentials-Harvesting/tree/main/Mimikatz">Mimikatz</a>   
+| 2.&nbsp; Harvesting Credentials through task manager (local)            | <a href="https://github.com/Benjamin-code-sys/Credentials-Harvesting/tree/main/Memmory-Dump">Memmory Dump</a>
 | 3.&nbsp; Harvesting Credentials using impacket python scripts (remote)  | <a href="">Secretsdump.py</a>
 
 
