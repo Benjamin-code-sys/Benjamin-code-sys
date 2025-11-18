@@ -62,7 +62,19 @@ These methods align with legitimate Windows functionality, and the value they br
 | 3.&nbsp; Local Priv-Escalation via abusing SeImpersonate privilege      | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/SeImpersonate">PrintSpoofer</a>                                    |
 | 4.&nbsp; Local Priv-Escalation via abusing AlwaysInstallElevated        | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/AlwaysInstallElevated">AlaysInstallElevated</a>                                    |
 | 5.&nbsp; Local Priv-Escalation via User Access Control Bypass           | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/UAC-Bypass">UAC-Bypass Fodhelper</a>                                    |
-                                          
+
+### 5. Credential Harvesting
+The next phase upon gaining high privilege context is to dump creds from the lsass memmory. These are crucial as they are leveraged by threat actors for lateral movement  
+Tools like **`Mimikatz`** and **`SecretsDump.py`** show how Windows credentials can be exposed through memory, SAM, and domain-auth weaknesses—highlighting critical identity-security gaps.  
+For red-teamers, understanding these attack paths helps simulate real-world adversaries and identify weak configurations that organizations must fix.  
+
+
+| Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
+|-------------------------------------------------------------------------|----------------------------------------------------|
+| 1.&nbsp; Harvesting Credentials using mimikatz (local)                  | <a href="">Mimikatz</a>   
+| 2.&nbsp; Harvesting Credentials through task manager (local)            | <a href="">Memmory Dump</a>
+| 3.&nbsp; Harvesting Credentials using impacket python scripts (remote)  | <a href="">Secretsdump.py</a>
+
 
 ## Tools
 Throughout my red teaming and offensive security journey, I’ve worked extensively with a wide range of tools and frameworks that support every stage of an engagement — from reconnaissance and vulnerability assessment to exploitation, post-exploitation, and command & control operations. Below is a categorized overview of some of the core tools I rely on to simulate real-world attack scenarios and assess organizational security postures effectively.
