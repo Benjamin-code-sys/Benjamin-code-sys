@@ -17,7 +17,7 @@ They demonstrate hands-on expertise across the entire attack chain—from initia
 I hope this curated sample helps you understand the dedication and craft behind my projects.
 
 ### 1. Initial Compromise (Delivery)
-The following projects listed below showcase just five of the many advanced ways attackers can deliver malicious payloads onto a targets system that are fully undetectable by the current AV engines as of today  
+The following projects listed below showcase just five of the many advanced ways attackers can deliver malicious payloads onto a targets system that are fully undetectable by the current `AV engines` as of today  
 Investigate my custom ways and codes i've provided by following the link to my github repos highlighted below
 
 | Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
@@ -56,7 +56,7 @@ Below i've illustrated five of the many advanced persistence mechanisms that pro
 
 ### 4. Local Privilege Escalation
 After obtaining an initial foothold, one of the core objectives in a red team engagement is gaining higher privileges on the compromised system.  
-Local Privilege Escalation (LPE) focuses on identifying weak configurations, insecure permissions, and overlooked system behaviors that allow a low-privileged user to obtain administrative or SYSTEM-level access.  
+`Local Privilege Escalation` (LPE) focuses on identifying weak configurations, insecure permissions, and overlooked system behaviors that allow a low-privileged user to obtain administrative or SYSTEM-level access.  
 Below I’ve highlighted five well-known privilege escalation vectors that commonly arise from misconfigurations.  
 These methods align with legitimate Windows functionality, and the value they bring to an engagement lies in demonstrating how subtle configuration choices can create major security gaps without directly breaking system integrity.
 
@@ -86,13 +86,23 @@ For red-teamers, understanding these attack paths helps simulate real-world adve
 ---
 
 ### 6. Bypassing PowerShell's Defences
-In domain Enviroments Powershell is often ntergrated with some defences to make it harder for attackers to abuse it once inside the network. This defences range from the basic execution policy to constrained language mode. Below are links to some of my custom ways to bypass such defences and use its full capabilities
+In domain Enviroments Powershell is often intergrated with some defences to make it harder for attackers to abuse it once inside the network. This defences range from the basic execution policy to constrained language mode. Below are links to some of my custom ways to bypass such defences and use its full capabilities.
 
 | Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
-| Bypassing Anti Malware Scan Interface by breaking `AmsiInitialise` sequence | <a href="https://github.com/Benjamin-code-sys/Bypassing-Powershell-Restrictions/tree/main/Bypassing%20AMSI">Bypassing AMSI</a> |
-| Bypassing Powershell's Constrained Language Mode intergrated with AppLocker | <a href="https://github.com/Benjamin-code-sys/Bypassing-Powershell-Restrictions/tree/main/Bypassing%20CLM">Bypassing AppLocker</a>
+| 1.&nbsp; Bypassing Anti Malware Scan Interface by breaking `AmsiInitialise` sequence | <a href="https://github.com/Benjamin-code-sys/Bypassing-Powershell-Restrictions/tree/main/Bypassing%20AMSI">Bypassing AMSI</a> |
+| 2.&nbsp; Bypassing Powershell's Constrained Language Mode intergrated with AppLocker | <a href="https://github.com/Benjamin-code-sys/Bypassing-Powershell-Restrictions/tree/main/Bypassing%20CLM">Bypassing AppLocker</a>
+
 ---
+
+### 7. Domain Enumeration
+Now that we've managed to bypass Powershell Restrictions we can now proceed to enumerate the domain keeping in mind that we may have `EDR` solution so we must be `opsec safe`.   
+For this enumeration we can use the popular `powerview script` for manual enumeration or `BloodHound` for graph based results
+Since PowerView amoung othe useful scripts we might need to use are generally highly detected by `AV Engines` we should not download it to disk since it'll be flagged immidiatly, instead we should download it directly into memmory.
+
+| Skill                                                                           | Proof-Of-Concept &nbsp;Projects                                 |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| 1.&nbsp;Bypassing user-land hooks by in-memmory execution of malicious scripts  | <a href="">In-Memmory Execution</a>  |                          
 
 ## Tools
 Throughout my red teaming and offensive security journey, I’ve worked extensively with a wide range of tools and frameworks that support every stage of an engagement — from reconnaissance and vulnerability assessment to exploitation, post-exploitation, and command & control operations. Below is a categorized overview of some of the core tools I rely on to simulate real-world attack scenarios and assess organizational security postures effectively.
