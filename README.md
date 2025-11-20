@@ -28,6 +28,8 @@ Investigate my custom ways and codes i've provided by following the link to my g
 | 4.&nbsp; Initial compromise using Map-View Code injection with embeded obfuscated payload  | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/Map-View-Code-Injection">Map-View Code Injection</a>                                                 |
 | 5.&nbsp; Initial compromise by leveraging Heavens-Gate technique             | <a href="https://github.com/Benjamin-code-sys/Bypassing-AV/tree/main/Heaven-Gate%20Technique">Heaven-Gate Technique</a>                                                    |
 
+---
+
 ### 2. Post-Compromise Enumeration (Local)  
 Upon gaining an initial foothold on our targets system it is imperitive that we perfom some enumeration to understand the enviroment better. This we'll help us get organised and find potential attack vectors and privilege escalation paths.  
 Manual enumeration is the recommended way for thorough and accurate information gathering, but since in a red team engagement we are often limited by time constrains we'll have to rely on automated tools. 
@@ -35,6 +37,8 @@ Manual enumeration is the recommended way for thorough and accurate information 
 | Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
 |-------------------------------------------------------------------------|----------------------------------------------------|
 | 1.&nbsp; Local Enumeration using undetectable automated tool (Windows)              | <a href="https://github.com/Benjamin-code-sys/Enumeration/tree/main/WinPEAS">Obfuscated WinPEAS</a>     |
+
+---
 
 ### 3. Post-Compromise Persistence
 To prevent losing access to our compromised system, us red teamers should ensure we put in place persistence mechanisms that ensure maintained access on the target enviroment even across reboots.  
@@ -47,6 +51,8 @@ Below i've illustrated five of the many advanced persistence mechanisms that pro
 | 3.&nbsp; Local Persistence through modified windows services (admin)     | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/Privileged/Modified-Services">Modified Services</a> |
 | 4.&nbsp; Local Persistence through AppInit-DLL (admin)                   |  <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/Privileged/AppInit-DLL">AppInit-DLL</a>           |
 | 5.&nbsp; Local Persistence through winlogon both shell & userinit (admin) | <a href="https://github.com/Benjamin-code-sys/Local-Persistence/tree/main/Privileged/Winlogon">Winlogon Persistence</a>
+
+---
 
 ### 4. Local Privilege Escalation
 After obtaining an initial foothold, one of the core objectives in a red team engagement is gaining higher privileges on the compromised system.  
@@ -63,6 +69,8 @@ These methods align with legitimate Windows functionality, and the value they br
 | 4.&nbsp; Local Priv-Escalation via abusing AlwaysInstallElevated        | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/AlwaysInstallElevated">AlaysInstallElevated</a>                                    |
 | 5.&nbsp; Local Priv-Escalation via User Access Control Bypass           | <a href="https://github.com/Benjamin-code-sys/Privilege-Escalation/tree/main/UAC-Bypass">UAC-Bypass Fodhelper</a>                                    |
 
+---
+
 ### 5. Credential Harvesting
 The next phase upon gaining high privilege context is to dump creds from the lsass memmory. These are crucial as they are leveraged by threat actors for lateral movement  
 Tools like **`Mimikatz`** and **`SecretsDump.py`** show how Windows credentials can be exposed through memory, SAM, and domain-auth weaknesses—highlighting critical identity-security gaps.  
@@ -75,6 +83,16 @@ For red-teamers, understanding these attack paths helps simulate real-world adve
 | 2.&nbsp; Harvesting Credentials through task manager (local)            | <a href="https://github.com/Benjamin-code-sys/Credentials-Harvesting/tree/main/Memmory-Dump">Memmory Dump</a>
 | 3.&nbsp; Harvesting Credentials using impacket python scripts (remote)  | <a href="">Secretsdump.py</a>
 
+---
+
+### 6. Bypassing PowerShell's Defences
+In domain Enviroments Powershell is often ntergrated with some defences to make it harder for attackers to abuse it once inside the network. This defences range from the basic execution policy to constrained language mode. Below are links to some of my custom ways to bypass such defences and use its full capabilities
+
+| Skill                                                                   | Proof-Of-Concept &nbsp;Projects                                 |
+|-------------------------------------------------------------------------|----------------------------------------------------|
+| Bypassing Anti Malware Scan Interface by breaking `AmsiInitialise` sequence | <a href="https://github.com/Benjamin-code-sys/Bypassing-Powershell-Restrictions/tree/main/Bypassing%20AMSI">Bypassing AMSI</a> |
+| Bypassing Powershell's Constrained Language Mode intergrated with AppLocker | <a href="https://github.com/Benjamin-code-sys/Bypassing-Powershell-Restrictions/tree/main/Bypassing%20CLM">Bypassing AppLocker</a>
+---
 
 ## Tools
 Throughout my red teaming and offensive security journey, I’ve worked extensively with a wide range of tools and frameworks that support every stage of an engagement — from reconnaissance and vulnerability assessment to exploitation, post-exploitation, and command & control operations. Below is a categorized overview of some of the core tools I rely on to simulate real-world attack scenarios and assess organizational security postures effectively.
